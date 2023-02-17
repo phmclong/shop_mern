@@ -1,0 +1,15 @@
+.box-heading {
+  margin: 0 0 20px 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.box-heading span {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}

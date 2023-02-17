@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+.background-container {
+  background-image: url(https://zunezx.com/public/home/img/bg.png);
+  background-size: cover;
+  background-position: center center;
+  margin-top: -15px;
+  margin-bottom: -20px;
+}

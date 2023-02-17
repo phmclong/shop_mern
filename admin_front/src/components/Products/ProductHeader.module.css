@@ -1,0 +1,111 @@
+.header {
+  z-index: 997;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #f5f4fe;
+  position: sticky;
+  top: 0;
+}
+
+/* Title */
+.page-title {
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* Search form */
+.search-form {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.input-group {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.btn {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-color: #ced4da transparent #ced4da #ced4da;
+  border: none;
+  background: none !important;
+  color: #000 !important;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  padding: 0.675rem 1.25rem;
+  border-radius: 0.5rem;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.form-control {
+  margin-left: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border: none;
+  font-size: 16px;
+  background: none;
+  position: relative;
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+  display: block;
+  padding: .675rem 1.25rem;
+  appearance: none;
+  border-radius: 0.5rem;
+  margin: 0;
+  font-family: inherit;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.header-bar {
+  margin-left: auto !important;
+}
+
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff !important;
+  background-color: #7e1117;
+  border-color: #7e1117;
+  padding: 0.675rem 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  margin: 0;
+}
+
+.btn-icon svg {
+  margin-right: 9px;
+}

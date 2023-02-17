@@ -1,0 +1,142 @@
+.menu {
+  width: 350px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Logo */
+.menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem 0rem;
+}
+
+.menu-header-logo {
+  height: 90px;
+}
+
+.logo {
+  width: 100px;
+}
+
+/* Menu */
+.menu-body {
+  overflow: hidden;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0 1.5rem 1.5rem;
+}
+
+.dropdown {
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 15px;
+  border: 2px;
+  display: inline;
+  position: relative;
+}
+
+.dropdown a {
+  display: flex;
+  align-items: center;
+  color: #7e1117;
+  text-decoration: none;
+}
+
+.avatar {
+  display: inline-block;
+  margin-bottom: 0;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.name {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fw-bold {
+  font-weight: 700;
+  margin-right: 50px;
+  color: #7e1117;
+  font-size: 15px;
+}
+
+.menu-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-wrapper li {
+  list-style-type: none;
+}
+
+.menu-wrapper li a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  font-size: 16px;
+  transition: background 0.2s, color 0.2s;
+  border-radius: 5rem;
+  padding: 10px 20px;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.menu-wrapper li a:active {
+  border-left-color: #7e1117;
+  border-right-color: #7e1117;
+  background: rgba(226, 134, 139, 0.863);
+}
+
+.menu-wrapper li a:hover span,
+.menu-wrapper li a:hover svg {
+  color: #7e1117;
+}
+
+.menu-wrapper li svg {
+  color: black;
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -0.125em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 12px;
+  font-size: 30px;
+  line-height: 18px;
+  width: 35px;
+  height: 35px;
+}
+
+.menu-item {
+  color: black;
+}

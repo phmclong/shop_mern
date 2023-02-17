@@ -1,0 +1,176 @@
+.tr {
+  background: #fff;
+  border-spacing: 0 15px;
+  border-collapse: separate;
+}
+
+.form-check-input {
+  border-radius: 0.25em;
+  width: 1.2em;
+  height: 1.2em;
+  margin-top: 0.15em;
+  vertical-align: top;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  appearance: none;
+  transition: background-color 0.15s ease-in-out,
+    background-position 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.form-check-input:checked {
+  background-color: #7e1117;
+  border-color: #7e1117;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%23fff%22%20class%3D%22bi%20bi-check%22%20viewBox%3D%220%200%2016%2016%22%3E%0A%20%20%3Cpath%20d%3D%22M10.97%204.97a.75.75%200%200%201%201.07%201.05l-3.99%204.99a.75.75%200%200%201-1.08.02L4.324%208.384a.75.75%200%201%201%201.06-1.06l2.094%202.093%203.473-4.425a.267.267%200%200%201%20.02-.022z%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.td {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-left: 1px solid transparent;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  padding: 1.3rem 0.75rem;
+  vertical-align: middle;
+  white-space: nowrap;
+  --bs-table-bg: transparent;
+  background-color: var(--bs-table-bg);
+  border: 0 solid;
+  border-color: inherit;
+  border-spacing: 0 15px;
+  border-collapse: separate;
+  text-align: center;
+}
+
+.td-form-check-input {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  padding-left: 15px;
+  border-left: 1px solid transparent;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  padding: 1.3rem 0.75rem;
+  vertical-align: middle;
+  white-space: nowrap;
+  -bs-table-bg: transparent;
+  border-spacing: 0 15px;
+  border-collapse: separate;
+  border: 0 solid;
+  border-color: inherit;
+  --bs-table-striped-color: #212529;
+  --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+  --bs-table-active-color: #212529;
+  --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+  --bs-table-hover-color: #212529;
+  --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+  background-image: linear-gradient(
+    var(--bs-table-accent-bg),
+    var(--bs-table-accent-bg)
+  );
+  background-color: var(--bs-table-bg);
+  color: #212529;
+}
+
+.td-id {
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  padding: 1.3rem 0.75rem;
+  vertical-align: middle;
+  white-space: nowrap;
+  --bs-table-bg: transparent;
+  background-color: var(--bs-table-bg);
+  border: 0 solid;
+  border-color: inherit;
+  border-spacing: 0 15px;
+  border-collapse: separate;
+}
+
+.td-id a {
+  text-decoration: none;
+  color: #7e1117;
+  white-space: nowrap;
+  border-spacing: 0 15px;
+  border-collapse: separate;
+  caption-side: bottom;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.img {
+  width: 40px;
+  border-radius: 0.5rem !important;
+  vertical-align: middle;
+  border-spacing: 0 15px;
+  border-collapse: separate;
+  white-space: nowrap;
+  caption-side: bottom;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.btn {
+  font-size: 14px;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.675rem 1.25rem;
+  border-radius: 0.5rem;
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 1px #7e1117;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  margin: 0px;
+  position: absolute;
+  inset: 0px auto auto 0px;
+  transform: translate(-152px, 45px);
+  height: auto;
+  display: block;
+  right: auto !important;
+  min-width: 13rem;
+  transition: margin-top 0.2s, opacity 0.2s;
+  border: none;
+  box-shadow: 0 0 50px 0 rgba(82, 63, 105, 0.15) !important;
+  padding: 0.5rem 0;
+  font-size: 0.875rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-radius: 0.5rem;
+}
+
+.dropdown-item {
+  display: block;
+  padding: 8px 25px;
+  width: 100%;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  font-family: inherit;
+}
