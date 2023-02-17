@@ -1,2 +1,2 @@
 # Web bán hàng online cơ bản
-# TechStack: ReactJS, NodeJS(ExpressJS), MongoDB
+# TechStack: ReactJS (React Hook), NodeJS(ExpressJS), MongoDB
